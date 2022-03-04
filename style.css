@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+body{
+   background-color:palegoldenrod;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.card{
+  background: white;
+  width: 220px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 15px 15px  0 0;
+}
+.card-image{
+  
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px  0 0;
+}
+.car-1{
+  background-image:url("DOG-AMORA.jfif");
+}
+.car-2{
+  background-image:url("DOG-RUBY.jfif");
+}
+.car-3{
+  background-image:url("DOG-PRINCE.jfif");
+}
+
+.card h2{
+  padding: 10px;
+}
+.card p{
+  padding: 10px;
+}
+.card a{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.card:hover{
+  background-color:pink;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.adoteumdoguinho{
+  display: flex;
+  justify-content: center;
+ font-family: fantasy;
+ font-size: 50px;
+ color:blueviolet
+ 
+
+}
+
+.menu-h {
+list-style-type: none;
+width: 100%;
+padding: 1%;
+
+background-color:plum;
+text-align: center;
+
+
+
+
+}
+.menu-h li{
+    display: inline;
+   
+  
+    
+
+   
+    
+
+
+}
+.menu-h li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10%;
+    text-align: center;
+   
+
+}
+
+.footer {
+  background-color: #129799;
+  height: 8vh;
+  margin-top: 15em;
+
+}
+.roda-pe {
+  display: flex;
+  width: 100%;
+}
+.container-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.container-redes a + a {
+  margin-left: 20px;
+}
+.redes-sociais {
+  width: 60px;
+  height: 60px;
+}
+.redes-sociais:hover {
+  background-color: #ffa185;
+  border-radius: 10px;
+}
+.container-final {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+.final {
+  font-size: 20px;
+  display: inline;
+  margin-right: 0.5em;
+  color: white;
+}
+.final:hover {
+  color: #ffa185;
+
+}
+
+  
